@@ -32,6 +32,7 @@ O FreePBX armazena os registros no banco **MySQL/MariaDB**, especificamente na t
 
 ### Fase 1: Prova de Conceito (PoC) - Local
 - [x] Definir linguagem (Go).
+- [x] Implementar carregamento de configurações via `.env`.
 - [ ] Criar ferramenta de teste em Go para conectar no MySQL do PABX (`192.168.240.223`).
 - [ ] Implementar listener AMI para eventos de chamada em tempo real.
 - [ ] Validar extração dos campos CDR: `calldate`, `duration`, `billsec`, `disposition`.
